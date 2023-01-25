@@ -1,0 +1,64 @@
+.write{
+    padding-top: 50px;
+}
+.writeForm{
+position: relative;
+
+}
+
+.writeFormGroup{
+    margin-left: 150px;
+}
+
+.writeIcon{
+    width: 250px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    color: blanchedalmond;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+
+}
+
+
+.writeInput{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+}
+
+
+.writeInput:focus{
+    outline: none;
+}
+.writeText{
+    font-size: 20px;
+    height: 100vh;
+
+}
+.writeSubmit{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: azure;
+    background-color:skyblue;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.writeImg{
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    /* object fit does crops the img and show it better for usage in the cover */
+
+}

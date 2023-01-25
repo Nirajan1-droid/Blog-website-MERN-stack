@@ -1,0 +1,62 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255,0.5));
+    background:url("./ta34bk5q3a6a1.jpg");
+    background-size: cover;
+    align-items: center;
+}
+.registerTitle{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size:50px;
+    color: white;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.registerForm > label {
+    margin: 10px 0;
+
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+
+}
+
+.registerButton{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    font-size:100;
+    font-style: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.registerLoginButton { 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1800;
+    font-weight: 500;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white; 
+    border-radius: 10px;
+}
