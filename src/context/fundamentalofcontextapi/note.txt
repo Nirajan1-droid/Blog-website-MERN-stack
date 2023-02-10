@@ -1,0 +1,11 @@
+we have more component
+and the state of the one component is necessary
+parent = app.js or index.js
+parent
+||||\\
+
+Reducer ======child == child == Login 
+||
+Action
+||
+Context
